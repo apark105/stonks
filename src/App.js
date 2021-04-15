@@ -1,15 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header';
+import Search from './components/Search';
+import TickerCard from './components/TickerCard';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-
-      </header>
+    <div className="container">
+        <Header/>
+        <Search/>
+        <TickerCard/>
     </div>
   );
 }
